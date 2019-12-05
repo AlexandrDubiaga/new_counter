@@ -1,0 +1,169 @@
+.App {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: peachpuff;
+}
+
+.Wrapper {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    background: antiquewhite;
+    border: 2px solid darkblue;
+    flex-wrap: wrap;
+}
+
+.Display {
+    margin-bottom: 300px;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .WrapperButtons {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 665px) {
+    .WrapperButtons {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+}
+
+.maxVal {
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.maxHide {
+    display: none;
+}
+
+.tableInDisplay td {
+    width: 600px;
+
+}
+
+@media (max-width: 480px) {
+    .tableInDisplay tr {
+        flex-direction: column;
+        display: flex;
+        height: 250px;
+    }
+}
+@media (max-width: 665px) {
+    .tableInDisplay tr {
+        flex-direction: column;
+        display: flex;
+        height: 250px;
+    }
+}
+
+@media (max-width: 665px) {
+    .tableInDisplay tr td span {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 480px) {
+    .tableInDisplay tr td span {
+        margin: 0 auto;
+    }
+}
+
+.tableInDisplay span {
+    margin-right: 100px;
+    width: 300px;
+}
+
+.tableInDisplay span {
+    width: 200px;
+}
+
+.Display form {
+    padding-bottom: 80px;
+}
+
+@media (max-width: 480px) {
+    .Display form {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 665px) {
+    .Display form {
+        padding-bottom: 0px;
+    }
+}
+
+.Display button {
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.WrapperButtons {
+    display: flex;
+
+}
+
+.Controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Button {
+    display: flex;
+}
+
+.Button button {
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.Display input {
+    height: 60px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.buttonColor {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.dispayColor {
+    color: firebrick;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.errorInput {
+    border: 2px solid red;
+
+}
+
+.errorInInputs {
+    font-size: 50px;
+    color: red;
+    height: 20px;
+}
+
+.OkInInputs {
+    font-size: 50px;
+    color: black;
+    height: 20px;
+}
